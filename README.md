@@ -74,6 +74,11 @@ Run the application:
 ```bash
 streamlit run app.py
 ```
+## Database Setup Guide
+
+For detailed instructions on creating the database, executing the schema, importing the supplied CSV datasets, configuring environment variables, and launching the application, see [`database_setup.md`](database_setup.md).
+
+The repository also includes [`queries.sql`](queries.sql), containing 20 predefined SQL queries for sales and financial analysis.
 
 ## Testing
 
