@@ -22,7 +22,7 @@ CREATE TABLE customer_sales (
     date DATE,
     name VARCHAR(100),
     mobile_number VARCHAR(15),
-    product_name ENUM('DS', 'DA', 'BA', 'FSD'),
+    product_name ENUM('DS', 'DA', 'BA', 'FSD', 'ML', 'AI', 'BI', 'SQL'),
     gross_sales DECIMAL(10,2),
     received_amount DECIMAL(10,2),
     pending_amount DECIMAL(10,2)
